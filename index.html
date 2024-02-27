@@ -1,0 +1,44 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class="top-section">
+                <h1>Just in Time</h1>
+                <h4> The Best Burgers and Pizzas in town</h4>
+            </div>
+        </header>
+            <div class="menu-list" id="menu-list"></div>
+            <div class="confirm-order" id="confirm-order"></div>
+        <div class="paymentBill" id="paymentBill">
+        <section >
+            <div class="bill" id="bill"></div>
+            <div class="totalprice" id="totalprice"></div>
+        </section>
+        <div id="order" class="order"></div>
+    </div>
+        <div class="payment-form" id="payment-form">
+            <div class="payment-details" id="payment-details">
+                <h1>Enter card details</h1>
+                <form id="form-details">
+                    <div id="form-details" class="form-details">
+                        <input class="name-input" id="name-input" type="text" name="name" placeholder="Enter your name"required/>
+                        <input class="card-input"id="card-input"type="tel" name="cardNo" placeholder="Enter card number" required/>
+                        <input class="cvv-input"id="cvv-input" type="tel" name="cvv"placeholder="Enter CVV" required/>
+                    </div>
+                    <button class="payment-btn" id="payment-btn" type="button">Pay</button>
+                </form>
+            </div>
+        </div>
+            <script src="index.js" type="module"></script>
+       
+
+    </body>
+    
+</html>
